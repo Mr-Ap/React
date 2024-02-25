@@ -1,8 +1,13 @@
-# React + Vite
+# Infinite Scroll in React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project contains two different approaches to implementing infinite scrolling in a React application:
 
-Currently, two official plugins are available:
+1. **React Hooks Approach**: This approach uses React's built-in hooks, such as useReducer and useEffect, to manage the state and lifecycle of the infinite scrolling feature. <br/>It demonstrates a basic implementation of infinite scrolling without relying on external libraries or packages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. **React Query Approach**: 
+This approach leverages the react-query library, which provides a powerful and flexible way to handle data fetching and caching. <br/>It demonstrates how to use react-query to implement infinite scrolling with automatic data fetching and caching.
+
+---
+
+
+### Happy Scrolling...!
