@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.post-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 16px;
+  background-color: antiquewhite;
+}
